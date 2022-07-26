@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b84bfdea-93f0-488d-8b4e-572784851a15">
+  <name>PushA</name>
+  <synonym>
+    <key>ru</key>
+    <value>PushA</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2a183c87-67c2-4a9e-bd46-f9d096a73e31"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c65e4d6a-6af8-4ccc-b191-6073a126bb8b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="90873a72-b841-483e-989e-a14aaaea5fbf"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="918f24f1-31a4-42c6-ac00-be2f948ed8c3"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5d11f499-08f0-463b-b38a-23074f634d97"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c1c4708e-bae0-489e-b4eb-96a53b193b2c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="02f36e4d-0127-4346-91f9-bd8ebb98f039"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>PushA_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Aleks_p99@mail.ru</vendor>
+  <version>1.0.0.2</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>github.com/aleksp99</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>github.com/aleksp99/ConversionFix</value>
+  </configurationInformationAddress>
+  <languages uuid="9f15e181-dff8-4822-8305-f090a3e7e215" extendedConfigurationObject="fa4b0c84-7a43-4ab6-ad87-b4d5483f4d2c">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
+  <styleItems>StyleItem.ПравоНедействительногоПользователяФон</styleItems>
+  <commonForms>CommonForm.ВыборОбъектаИлиСвойства</commonForms>
+  <dataProcessors>DataProcessor.НастройкаПравилОбмена</dataProcessors>
+  <dataProcessors>DataProcessor.НастройкаПравилКонвертацииСвойств</dataProcessors>
+</mdclass:Configuration>
